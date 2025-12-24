@@ -18,6 +18,11 @@
 
 <table align="center">
   <tr>
+  	<td align="center">
+      <img src="https://avatars.githubusercontent.com/gaplaza" width="100" height="100" style="object-fit:cover;"/>
+      <br/>junwoo<br/>
+      <a href="https://github.com/gaplaza">@gaplaza</a>
+    </td>
      <td align="center">
       <img src="https://avatars.githubusercontent.com/Yountaewoo" width="100" height="100" style="object-fit:cover;"/>
       <br/>윤태우<br/>
