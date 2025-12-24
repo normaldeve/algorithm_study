@@ -4,7 +4,7 @@
 
 | 문제 분류 | 문제 | 문제 제목 | 제출 여부 | 통과 여부 |
 | :--: | :--: | :--: | :--: | :--: |
-| 연습 문제 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | ⬜ | ⬜ |
+| 연습 문제 | 10871 | [X보다 작은 수](https://www.acmicpc.net/problem/10871) | ✅ | 🟢 |
 | 기본 문제✔ | 1000 | [A+B](https://www.acmicpc.net/problem/1000) | ⬜ | ⬜ |
 | 기본 문제✔ | 2557 | [Hello World](https://www.acmicpc.net/problem/2557) | ⬜ | ⬜ |
 | 기본 문제✔ | 10171 | [고양이](https://www.acmicpc.net/problem/10171) | ⬜ | ⬜ |
