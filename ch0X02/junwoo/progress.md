@@ -1,4 +1,4 @@
-![100%](https://progress-bar.xyz/0/?scale=27&title=progress&width=500&color=babaca&suffix=/27)
+![100%](https://progress-bar.xyz/1/?scale=27&title=progress&width=500&color=babaca&suffix=/27)
 
 ✅제출 ⬜미제출 🟢통과 ❌실패
 
