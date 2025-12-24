@@ -25,7 +25,7 @@
     </td>
     <td align="center">
       <img src="https://avatars.githubusercontent.com/normaldeve" width="100" height="100" style="object-fit:cover;"/>
-      <br/>김준우<br/>
+      <br/>junwoo<br/>
       <a href="https://github.com/normaldeve">@normaldeve</a>
     </td>
   </tr>
@@ -54,7 +54,7 @@
 ## 파일 구조
 ```text
 0x03_배열
- ├─ 김준우
+ ├─ junwoo
  │   ├─ 배열정리.md
  │   ├─ 10808_알파벳_개수.java
  │   └─ ...

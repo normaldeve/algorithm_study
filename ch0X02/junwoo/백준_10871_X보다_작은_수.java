@@ -1,4 +1,4 @@
-package 김준우;
+package junwoo;
 
 /**
  *

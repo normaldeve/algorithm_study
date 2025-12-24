@@ -1,0 +1,3 @@
+====== ScannerTest ======
+result sum = 123450000000
+Scanner time(ms): 1921
