@@ -20,7 +20,7 @@
   <tr>
   	<td align="center">
       <img src="https://avatars.githubusercontent.com/gaplaza" width="100" height="100" style="object-fit:cover;"/>
-      <br/>박기선/>ㅂㅂ/
+      <br/>박기선<br/>
       <a href="https://github.com/gaplaza">@gaplaza</a>
     </td>
      <td align="center">
