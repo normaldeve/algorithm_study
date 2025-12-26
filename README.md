@@ -26,7 +26,7 @@
      <td align="center">
       <img src="https://avatars.githubusercontent.com/Yountaewoo" width="100" height="100" style="object-fit:cover;"/>
       <br/>윤태우<br/>
-      <a href="https://github.com/Yountaewoo">@Jooahyeon</a>
+      <a href="https://github.com/Yountaewoo">@Yountaewoo</a>
     </td>
     <td align="center">
       <img src="https://avatars.githubusercontent.com/normaldeve" width="100" height="100" style="object-fit:cover;"/>
