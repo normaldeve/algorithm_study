@@ -1,5 +1,7 @@
 package custom_arraylist;
 
+import java.util.Comparator;
+
 /**
  * ArrayList 커스텀 하기
  *
@@ -48,6 +50,27 @@ public class MyArrayList<E> implements MyList<E>{
     @Override
     public int size() {
         return size;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    @Override
+    public boolean isContains(Object o) {
+        return indexOf(o) >= 0;
+    }
+
+    @Override
+    public boolean remove(Object o) {
+        int index = indexOf(o);
+        if (index < 0) {
+            return false;
+        }
+
+        remoteAt(index);
+        return true;
     }
 
     public int capacity() {
@@ -126,5 +149,31 @@ public class MyArrayList<E> implements MyList<E>{
         if (index < 0 || index > size) {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
+    }
+
+    private int indexOf(Object o) {
+        if (o == null) {
+            for (int i = 0; i < size; i++) {
+                if (elementData[i] == null) {
+                    return i;
+                }
+            }
+        } else {
+            for (int i = 0; i < size; i++) {
+                if (o.equals(elementData[i])) {
+                    return i;
+                }
+            }
+        }
+
+        return -1;
+    }
+
+    private void remoteAt(int index) {
+        int numMoved = size - index - 1;
+        if (numMoved > 0) {
+            System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+        }
+        elementData[--size] = null;
     }
 }

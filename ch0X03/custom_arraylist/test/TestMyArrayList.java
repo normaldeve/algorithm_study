@@ -22,5 +22,21 @@ public class TestMyArrayList {
                     myList
             );
         }
+
+        myList.remove(3);
+        System.out.printf(
+                "remove(3)-> size=%d, capacity=%d data=%s%n,",
+                myList.size(),
+                myList.capacity(),
+                myList
+        );
+
+        myList.remove(4);
+        System.out.printf(
+                "remove(3)-> size=%d, capacity=%d data=%s%n,",
+                myList.size(),
+                myList.capacity(),
+                myList
+        );
     }
 }
