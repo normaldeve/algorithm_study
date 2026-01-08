@@ -7,7 +7,13 @@ package custom_arraylist;
  * @date 26. 1. 2.
  */
 public interface MyList<E> {
-    boolean add(E e);
+    void add(E e);
+
+    void add(int index, E element);
+
+    void addFirst(E element);
+
+    void addLast(E element);
 
     int size();
 }

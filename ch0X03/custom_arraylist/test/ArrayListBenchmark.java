@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * Java ArrayList와 내가 구현한 ArrayList 삽입 속도 비교
  * @author junnukim1007gmail.com
  * @date 26. 1. 2.
  */

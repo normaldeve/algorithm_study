@@ -18,10 +18,31 @@ public class MyArrayList<E> implements MyList<E>{
     }
 
     @Override
-    public boolean add(E e) {
+    public void add(E e) {
         ensureCapacity(size + 1);
         elementData[size++] = e;
-        return true;
+    }
+
+    @Override
+    public void add(int index, E element) {
+        rangeCheckIndex(index);
+
+        ensureCapacity(size + 1);
+
+        System.arraycopy(elementData, index, elementData, index + 1, size - index);
+
+        elementData[index] = element;
+        size++;
+    }
+
+    @Override
+    public void addFirst(E element) {
+        add(0, element);
+    }
+
+    @Override
+    public void addLast(E element) {
+        add(element);
     }
 
     @Override
@@ -99,5 +120,11 @@ public class MyArrayList<E> implements MyList<E>{
         Object[] newArray = new Object[newCapacity];
         System.arraycopy(elementData, 0, newArray, 0, size);
         elementData = newArray;
+    }
+
+    private void rangeCheckIndex(int index) {
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
     }
 }
