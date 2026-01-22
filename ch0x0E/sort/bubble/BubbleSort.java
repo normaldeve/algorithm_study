@@ -8,9 +8,17 @@ package sort.bubble;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {5, 4, 3, 2, 1};
+        int[] arr = new int[5000];
 
-        new_bubble_sort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i + 1;
+        }
+
+        long start = System.nanoTime();
+        old_bubble_sort(arr);
+        long end = System.nanoTime();
+
+        System.out.println("정렬 시간(ns): " + (end - start) + "");
 
         for (int i : arr) {
             System.out.print(i + " ");
