@@ -1,4 +1,4 @@
-package sort;
+package sort.bubble;
 
 /**
  * 버블 정렬을 구현합니다.
